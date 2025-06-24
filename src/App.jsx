@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
+
 import './App.css'
+import HomepageLayout from './components/homepage/HomePageLayout'
+import Feature from './components/homepage/Feature'
 
 function App() {
 
   return (
     <>
-      
+      <HomepageLayout/>
     </>
   )
 }
