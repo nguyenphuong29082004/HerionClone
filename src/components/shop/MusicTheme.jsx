@@ -3,7 +3,7 @@ import React from 'react'
 function MusicTheme() {
   return (
     <div className='relative'>
-        <div className='absolute bg-[url(/shop/t-bg.png)] w-[120%] h-screen bg-no-repeat bg-right'></div>
+        <div className='absolute bg-[url(/shop/t-bg.png)] w-full h-screen bg-no-repeat  overflow-hidden'></div>
         <div className='absolute flex items-center justify-center w-full h-screen px-[80px] flex-col'>
             
                 <h2 className="text-[95px] font-style_harley text-[rgba(255,255,255,0.45)] ">Making Music Themes Since 2011</h2>
