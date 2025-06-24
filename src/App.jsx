@@ -3,13 +3,16 @@ import React from 'react'
 
 import './App.css'
 import HomepageLayout from './components/homepage/HomePageLayout'
-import Feature from './components/homepage/Feature'
+import DiscographyLayout from './components/discography/DiscographyLayout'
 
 function App() {
 
   return (
     <>
       <HomepageLayout/>
+      <DiscographyLayout/>
+      
+
     </>
   )
 }
