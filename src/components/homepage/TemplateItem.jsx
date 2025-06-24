@@ -2,7 +2,7 @@
 
  function TemplateItem({ image, title }) {
    return (
-    <div className="group cursor-pointer w-min ">
+    <div className="group cursor-pointer w-min" data-aos="fade-up">
         <div className="w-[400px] h-[280px]">
             <img
                 src={image}
