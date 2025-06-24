@@ -7,6 +7,7 @@ import DiscographyLayout from './components/discography/DiscographyLayout'
 import ArtistLayout from './components/artist/ArtistLayout'
 import ShopLayout from './components/shop/ShopLayout'
 import SaveMoneyLayout from './components/save_money/SaveMoneyLayout'
+import Footer from './components/footer/Footer'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <ArtistLayout/>
       <ShopLayout/>
       <SaveMoneyLayout/>
+      <Footer/>
       
       
 
