@@ -13,7 +13,7 @@ const [activeTab, setActiveTab] = useState("single")
         </div>
         <div className="mt-12">
             {activeTab === "single" && (
-                <div className="grid grid-cols-3 gap-x-8 gap-y-16">
+                <div className="grid md:grid-cols-3 gap-x-8 gap-y-16 grid-cols-1">
                     <TemplateItem image="/imageSingle/info-at-right.jpg" title="Info at Right"/>
                     <TemplateItem image="/imageSingle/info-at-left.jpg" title="Info at Left"/>
                     <TemplateItem image="/imageSingle/wide-width.jpg" title="Wide Width"/>

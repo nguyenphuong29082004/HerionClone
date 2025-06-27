@@ -18,9 +18,9 @@ import artist_metro from "../../assets/homepage/artist-metro.jpg"
 function TemplateGrid() {
   return (
     <div className='flex flex-col items-center mt-20'>
-        <h2 className='text-[95px] font-style_harley text-harley'><span className='text-9xl'>15 </span>Template</h2>
-        <h2 className='font-style_staaliches text-3xl mb-16 tracking-wide'>HOMEPAGES</h2>
-        <div className="grid grid-cols-3 gap-x-8 gap-y-16">
+        <h2 className='sm:text-[95px] text-[60px] font-style_harley text-harley'><span className='sm:text-9xl text-xl'>15 </span>Template</h2>
+        <h2 className='font-style_staaliches sm:text-3xl text-xl sm:mb-16 mb-5 tracking-wide'>HOMEPAGES</h2>
+        <div className="grid md:grid-cols-3 gap-x-8 gap-y-16 grid-cols-1 p-10">
             <TemplateItem title="Main Home" image={main_home} className="shadow-xl"/>
             <TemplateItem title="One Page" image={one_page} />
             <TemplateItem title="Band Home" image={band_home} />

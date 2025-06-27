@@ -4,7 +4,7 @@ import SaveMoneyCotent from './SaveMoneyCotent'
 
 function SaveMoneyLayout() {
   return (
-    <div>
+    <div className='p-[40px]'>
         <SaveMoneyIntro/>
         <SaveMoneyCotent/>
     </div>

@@ -5,14 +5,13 @@ function ArtistSwitcher() {
     const [activeTab, setActiveTab] = useState("single")
     return (
       <div className='flex flex-col items-center mb-20'>
-          <div className='border-b-[1px] border-gray-300 w-[80%]
-          text-center'>
+          <div className='border-b-[1px] border-gray-300 w-[80%] text-center mb-[20px]'>
               <button onClick={() => setActiveTab("single")} className={`uppercase mr-8 font-bold text-[16px] cursor-pointer ${activeTab === 'single' ? 'border-b-2 pb-4' : 'border-transparent'}`}>Release single pages</button>
               <button onClick={() => setActiveTab("listing")} className={`uppercase mr-8 font-bold text-[16px] cursor-pointer  ${activeTab === 'listing' ? 'border-b-2 pb-4' : 'border-transparent'}`}>Release listing</button>
           </div>
-          <div className="mt-12">
+          <div className="mt-12 px-10">
               {activeTab === "single" && (
-                  <div className="grid grid-cols-3 gap-x-8 gap-y-16">
+                  <div className="grid md:grid-cols-3 gap-x-8 gap-y-16 grid-cols-1">
                       <TemplateItem image="/imageSingle/info-at-right.jpg" title="Info at Right"/>
                       <TemplateItem image="/imageSingle/info-at-left.jpg" title="Info at Left"/>
                       <TemplateItem image="/imageSingle/wide-width.jpg" title="Wide Width"/>

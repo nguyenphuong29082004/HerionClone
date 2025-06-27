@@ -12,10 +12,10 @@ import { FreeMode, Pagination } from 'swiper/modules';
 
  function ShopIntro() {
   return (
-    <div className='bg-[#9393931a] pb-[100px] mt-[780px]'>
+    <div className='bg-[#9393931a] pb-[100px] mt-[100px]'>
         <div className="text-center px-4 py-12 max-w-6xl mx-auto">
-            <h2 className='text-[95px] font-style_harley text-harley'>Sell Your Merch</h2>
-            <h2 className='font-style_staaliches text-3xl mb-12 tracking-wide uppercase'>WOOCOMMERCE SHOP</h2>
+            <h2 className='sm:text-[95px] text-[60px] font-style_harley text-harley'>Sell Your Merch</h2>
+            <h2 className='font-style_staaliches sm:text-3xl text-xl mb-12 tracking-wide uppercase'>WOOCOMMERCE SHOP</h2>
             <p className="font-main text-sub_main leading-8">
                 Sell your merch online using the most powerful and secure e-commerce WordPress theme: WooCommerce. Herion is built to integrates WooCommerce smoothly in its design.            </p>
         </div>

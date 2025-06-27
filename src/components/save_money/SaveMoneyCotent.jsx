@@ -2,8 +2,8 @@ import React from 'react'
 import { MdOutlineCheckCircle } from "react-icons/md";
 function SaveMoneyCotent() {
   return (
-    <div className="flex justify-center gap-10">
-        <div className="w-max border px-24 py-20 flex flex-col gap-8 items-center shadow-xl border-gray-200 hover:scale-105 transition">
+    <div className="md:flex justify-center items-center gap-10 p-[20px]">
+        <div className="w-max border px-10 md:px-12 py-20 flex flex-col gap-8 items-center shadow-xl border-gray-200 hover:scale-105 transition mb-16">
             <div className="bg-[url(/saveMoney/image1.jpg)] w-[80px] h-[80px]"></div>
             <div  className='text-center'>
                 <h3 className='font-style_staaliches text-2xl'>Slider Revolution</h3>
@@ -29,7 +29,7 @@ function SaveMoneyCotent() {
                 </li>                
             </ul>
         </div>
-        <div className="w-max border px-24 py-20 flex flex-col gap-8 items-center shadow-xl border-gray-200 hover:scale-105  transition">
+        <div className="w-max border px-10 md:px-12 py-20 flex flex-col gap-8 items-center shadow-xl border-gray-200 hover:scale-105  transition mb-16">
             <div className="bg-[url(/saveMoney/image1.jpg)] w-[80px] h-[80px]"></div>
             <div  className='text-center'>
                 <h3 className='font-style_staaliches text-2xl'>Slider Revolution</h3>
@@ -55,7 +55,7 @@ function SaveMoneyCotent() {
                 </li>                
             </ul>
         </div>
-        <div className="w-max border px-24 py-20 flex flex-col gap-8 items-center shadow-xl border-gray-200 hover:scale-105 transition">
+        <div className="w-max border px-10 md:px-12 py-20 flex flex-col gap-8 items-center shadow-xl border-gray-200 hover:scale-105 transition mb-16">
             <div className="bg-[url(/saveMoney/image1.jpg)] w-[80px] h-[80px]"></div>
             <div className='text-center'>
                 <h3 className='font-style_staaliches text-2xl'>Slider Revolution</h3>

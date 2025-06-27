@@ -68,7 +68,7 @@ function FeatureHighlights() {
     }
   ];
   return (
-    <div className="grid grid-cols-4 px-[80px] gap-x-8 gap-y-12 mt-40">
+    <div className="grid md:grid-cols-4 px-[80px] gap-x-8 gap-y-12 mt-40">
         {features.map((item, index) => (
         <ShopFeatureItem
           key={index}
