@@ -1,6 +1,6 @@
-#Câu trả lời bài test
-##1:
-###Dự án: Giao diện Website Thuê Xe - https://github.com/HuyHoang3425/project_web_nhom_1
+# Câu trả lời bài test
+## 1:
+### Dự án: Giao diện Website Thuê Xe - https://github.com/HuyHoang3425/project_web_nhom_1
 🔧 Công nghệ sử dụng:
     - HTML, CSS, JavaScript thuần (không dùng framework)
     - Thiết kế dựa trên mẫu tham khảo (không có Figma)
@@ -14,22 +14,22 @@
 📌 Kết quả:
     - Hoàn thành giao diện website hoàn chỉnh và đồng nhất giữa các trang.
 
-##2: Tìm hiểu về React: Life Cycle – State – Hiệu năng
-###2.1: Vòng đời (Life Cycle) của một component React gồm 3 giai đoạn chính:
+## 2: Tìm hiểu về React: Life Cycle – State – Hiệu năng
+### 2.1: Vòng đời (Life Cycle) của một component React gồm 3 giai đoạn chính:
   - Mounting – Khi component được tạo và gắn vào DOM.
   - Updating – Khi state hoặc props thay đổi.
   - Unmounting – Khi component bị gỡ khỏi DOM.
-###2.2: Quản lý State trong React
+### 2.2: Quản lý State trong React
   - useState: quản lý state đơn giản.
   - useReducer: dùng khi state phức tạp hoặc cần logic chuyển đổi.
   - useContext: chia sẻ state toàn cục giữa các component.
   => State cần được bất biến (immutable) để React nhận biết sự thay đổi và re-render đúng cách.
-###2.3: Vấn đề hiệu năng
+### 2.3: Vấn đề hiệu năng
   - Component render lại không cần thiết
   - Hàm hoặc dữ liệu được tạo lại mỗi lần render
   - Quản lý state không hợp lý (dẫn đến render toàn bộ cây)
 
-##3: Thực hiện bài chuyển đổi từ bản thiết kế dưới đây sang code Frontend.
+## 3: Thực hiện bài chuyển đổi từ bản thiết kế dưới đây sang code Frontend.
 ### Cách chạy dự án:  
   - Yêu cầu: Đã cài Node.js, Git
   - Các bước thực hiện:
